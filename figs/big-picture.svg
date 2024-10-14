@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 507 430" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="186.1678668266535" y="320.1526768479127" angle="-180"/>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -353.037994, -57.110001)">
+    <title>API Graph</title>
+    <rect width="507" height="430" style="fill: rgb(255, 255, 255);" x="353.038" y="57.11">
+      <title>Background</title>
+    </rect>
+    <g transform="matrix(1, 0, 0, 1, 0, 21.009352)">
+      <title>Algorithm-Environment Loop</title>
+      <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 23px; white-space: pre;" x="422.824" y="371.738">Algorithm</text>
+      <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 23px; white-space: pre;" x="625.616" y="371.738">Environment</text>
+      <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px;" points="472.085 347.929 472.085 318.327 688.467 318.327 688.467 352.094 696.778 347.296 688.212 352.241 680.275 347.659"/>
+      <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px; transform-box: fill-box; transform-origin: 50% 50%;" points="463.124 410.268 463.124 380.666 679.506 380.666 679.506 414.433 687.817 409.635 679.251 414.58 671.314 409.998" transform="matrix(-1, 0, 0, -1, -0.000019, 0.000017)"/>
+      <g transform="matrix(1, 0, 0, 1, 350.47226, 267.860168)">
+        <title>State</title>
+        <rect x="209.72" y="138.149" width="45.24" height="19.874" style="fill: rgb(255, 255, 255);"/>
+        <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="213.662" y="153.679">State</text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 348.375, 171.591995)">
+        <title>Action</title>
+        <rect x="209.72" y="138.149" width="49.435" height="19.874" style="fill: rgb(255, 255, 255);"/>
+        <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="212.293" y="153.679">Action</text>
+        <rect x="206.321" y="182.046" width="49.435" height="19.874" style="fill: rgb(255, 255, 255);"/>
+      </g>
+    </g>
+    <rect x="353.038" y="58.11" width="450.738" height="424.466" style="stroke: rgb(0, 0, 0); fill: none; stroke-dasharray: 4; stroke-width: 2px;"/>
+    <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 23px; white-space: pre;" transform="matrix(1, 0, 0, 1, 378.156708, -197.126434)"><tspan x="147.783" y="282.248">Experiment</tspan><tspan x="147.783" dy="1em">​</tspan></text>
+    <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px;" points="585.1 281.274 585.1 149.478 566.187 160.72 585.107 149.435 604.652 161.184"/>
+    <g>
+      <title>Training Loop Label</title>
+      <rect x="509.398" y="230.196" width="155.064" height="40.987" style="fill: rgb(255, 255, 255);"/>
+      <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 23px; white-space: pre;" x="513.624" y="249.407">Training Loop</text>
+    </g>
+    <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 23px; white-space: pre;" x="368.684" y="170.866"><title>Data Collector Label</title>Data Collector</text>
+    <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 2.5;" points="440.496 177.783 504.725 289.031 560.753 289.031"/>
+    <rect x="392.731" y="260.08" width="378.489" height="195.402" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px; stroke-dasharray: 10;"/>
+    <path d="M 747.387 255.33 L 709.192 255.525 L 709.166 -12.266 L 728.809 -0.54 M 709.217 -12.252 L 690.344 -1.004" style="stroke: rgb(0, 0, 0); fill: none; stroke-linejoin: round; stroke-linecap: round; stroke-width: 4px;" transform="matrix(0, 1, -1, 0, 840.295507597166, -597.796488418455)"/>
+    <g transform="matrix(1, 0, 0, 1, 352.037994, 57.110001)">
+      <title>Datum</title>
+      <rect x="209.72" y="138.149" width="45.24" height="19.874" style="fill: rgb(255, 255, 255);"/>
+      <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="209.72" y="153.273">Datum</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 440.229187, -36.883255)">
+      <title>list[Datum]</title>
+      <rect x="205.65" y="138.863" width="87.844" height="17.851" style="fill: rgb(255, 255, 255);"/>
+      <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="209.72" y="153.273">List[Datum]</text>
+    </g>
+    <g transform="matrix(0.263396, 0, 0, 0.263396, 568.272034, 289.250214)" style="">
+      <title>Binoculars</title>
+      <path d="m108.66 122.7c8.148 0 14.742-6.594 14.742-14.742v-94.047c0-8.156-6.594-14.742-14.742-14.742h-94c-8.156 0-14.773 6.586-14.773 14.742v94.047c0 8.148 6.617 14.742 14.773 14.742h94z"/>
+      <path d="m14.656 1.668c-6.765 0-12.273 5.492-12.273 12.242v94.047c0 6.75 5.508 12.242 12.273 12.242h94c6.758 0 12.258-5.492 12.258-12.242v-94.047c0-6.75-5.5-12.242-12.258-12.242h-94z" fill="#fff"/>
+      <path d="m38.555 18.48h15.688v11.227h-15.688z"/>
+      <path d="m71.938,66.918c-1.492,0-2.68-1.203-2.68-2.688v-31.007h23.695l9.992,42.312-.055,2.734v18.695c0,1.445-1.172,2.617-2.609,2.617h-23.047c-1.445,0-2.617-1.172-2.617-2.617v-30.046h-2.484"/>
+      <path d="m51.484,66.988c1.484,0 2.688-1.195 2.688-2.688v-31.03h-23.672l-10.008,42.312 .047,2.758v18.703c0,1.438 1.172,2.609 2.609,2.609h23.039c1.461,0 2.633-1.172 2.633-2.609v-30.055h2.469"/>
+      <path d="m57.633 33.27h8.133v28.812h-8.133z"/>
+      <path d="m69.258 18.48h15.688v11.227h-15.688z"/>
+      <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-dasharray: 5; stroke-width: 0.75px;" x1="-0.114" y1="63.314" x2="-666.161" y2="232.535"/>
+      <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-dasharray: 5; stroke-width: 0.75px;" x1="123.403" y1="63.314" x2="761.507" y2="232.535"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 348.375, 192.600998)">
+      <title>Reward Label</title>
+      <path style="stroke: rgb(0, 0, 0); fill: none;" d="M 186.94 202.016 L 178.234 193.307 L 186.94 202.016 Z M 186.988 184.553 L 178.137 193.404 L 186.988 184.553 Z M 178.137 193.404 L 275.393 193.404 L 178.137 193.404 Z"/>
+      <rect x="201.575" y="183.211" width="63.446" height="19.874" style="fill: rgb(255, 255, 255);"/>
+      <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 16px; white-space: pre;" x="205.894" y="198.576">Reward</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+[project]
+name = "paper_experiments"
+version = "0.0.1"
+authors = [
+  { name="Jose Aguilar Escamilla", email="aguijose@oregonstate.edu" },
+]
+description = "Experiments used in the paper titled '[paper]'"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/aguilarjose11/AttackableMDP.git"
+Issues = "https://github.com/aguilarjose11/AttackableMDP.git"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
