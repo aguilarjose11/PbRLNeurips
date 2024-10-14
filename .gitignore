@@ -1,0 +1,11 @@
+# Ignore IDE and optimization files for python
+__pycache__
+.idea
+.run
+cautious_decider_*
+
+# Swap files from Vim
+*.swp
+
+# Temporal folder for data
+tmp
