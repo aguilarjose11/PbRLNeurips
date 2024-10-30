@@ -6,7 +6,7 @@
 
 '''
 
-from src.paper_experiments.experiments.algorithms.base import RLAlgorithm
+from src.paper_experiments.algos.experiments import RLAlgorithm
 
 class PPO(RLAlgorithm):
     pass

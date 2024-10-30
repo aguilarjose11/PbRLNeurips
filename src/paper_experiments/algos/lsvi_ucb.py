@@ -5,9 +5,8 @@
 @email aguijose(at)oregonstate.edu
 
 '''
-import numpy as np
 
-from src.paper_experiments.experiments.algorithms.base import RLAlgorithm, LinearPolicy
+from src.paper_experiments.algos.experiments import RLAlgorithm, LinearPolicy
 
 import numpy as np
 from numpy.typing import ArrayLike
