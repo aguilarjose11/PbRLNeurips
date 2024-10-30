@@ -1,4 +1,4 @@
-Code for paper "(Im-)Possibilities of Reward Poisoning Attacks on Reinforcement Learning"
+Code for paper "RA-PbRL: Provably Efficient Risk-Aware Preference-Based Reinforcement Learning"
 ==============================================================
 
 Code Setup Documentation
