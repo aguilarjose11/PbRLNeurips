@@ -47,8 +47,6 @@ for k in range(K):
     # Apply learning algorithm
     algo.learn(reward)
 
-# RANDOM NOTE: Watch the dude that makes bad food!
-
 env_1.close()
 env_2.close()
 

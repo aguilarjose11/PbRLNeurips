@@ -14,9 +14,9 @@ import argparse
 import pickle
 import time
 
-from src.paper_experiments.algos.experiments import CLIParser, CLIArguments
-from src.paper_experiments.algos.experiments import exps as EXPERIMENT_LIST
-from src.paper_experiments.algos.experiments import LSVIUCB, QLearning
+from src.algos.experiments import CLIParser, CLIArguments
+from src.algos.experiments import exps as EXPERIMENT_LIST
+from src.algos.experiments import LSVIUCB, QLearning
 
 ### Experiment Specifics (used by CLI documentation) ###
 _NAME = 'python -m run'

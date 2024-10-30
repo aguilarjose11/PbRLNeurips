@@ -6,7 +6,7 @@
 
 '''
 
-from src.paper_experiments.algos.experiments import RLAlgorithm
+from src.algos.experiments import RLAlgorithm
 
-class DQN(RLAlgorithm):
+class PPO(RLAlgorithm):
     pass

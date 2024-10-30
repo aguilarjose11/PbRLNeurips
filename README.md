@@ -39,32 +39,13 @@ project.
 Script Usage
 ------------------
 
-Our experiments are run using our own experiment training pipeline.
-The main file with which our results can be duplicated is ``run.py``.
-This file contains a CLI menu from which the specific experiment to be
-executed is selected. The following flags are part of the CLI menu:
+Our codebase provides the code implementing and training RA-PbRL 
+algorithm. In order to execute the experiments we implemented, refer to 
 
 
 ```bash
-python3 src/paper_experiments/run.py --[experiment] --epochs [epochs] --output [folder] 
---config file      
+python3 src/paper_experiments/pbrl_experiment.py
 ```
-
-The rest of every experiment configuration can be found within the 
-configuration file passed. See our given [configuration files](./config_files) 
-for our experiments to see how the experiments were configured. We 
-provide an extra help flag to see a description: `--experiment_help`. 
-To use this flag you must select an experiment as well. No experiments 
-will be run if this flag is used.
-
-### File Structure
-
-
-We follow a classic [pip project structure](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
-In the `src/` folder you can find our paper_experiments package where 
-`run.py` and other requirements are located.
-
----
 
 
 Implemented Algorithms
@@ -110,7 +91,6 @@ OUTPUT:
 ------------------------------------------------------------------------
 P_k   <= argmin_P |P[s, a] @ I[s, a]|^2
 B^P_k <= {P'| |P_k|}
-
 ```
 
 ---

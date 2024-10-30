@@ -6,7 +6,7 @@
 
 '''
 
-from src.paper_experiments.algos.experiments import RLAlgorithm, LinearPolicy
+from src.algos.experiments import RLAlgorithm, LinearPolicy
 
 import numpy as np
 from numpy.typing import ArrayLike
